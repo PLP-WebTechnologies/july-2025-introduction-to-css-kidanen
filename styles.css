@@ -1,0 +1,95 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #333;
+  padding: 15px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  margin: 0 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 30px auto;   /* margin centers it */
+  padding: 20px;       /* padding inside */
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+/* Headings & Paragraphs */
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Card */
+.card {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 20px;           /* spacing inside card */
+  margin-bottom: 20px;     /* spacing between cards */
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;       /* space above button */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  margin-top: 40px;
+}
