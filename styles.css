@@ -81,12 +81,13 @@ p {
   border-radius: 6px;
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: #0056b3;
 }
 
 /* Footer */
-.footer {
+#footer {
   text-align: center;
   background-color: #333333;
   color: #333;
